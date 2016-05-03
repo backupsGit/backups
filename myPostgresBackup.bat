@@ -19,5 +19,5 @@ SET PGPASSWORD=Andres0430
 
 %pathPostgres% -h localhost -p 5432 -U %PGUSER% -f %BACKUP_FILE%
 
-set runCommit="%base%backupfiles/commit.bat";
+set runCommit="C:\Users\1073669040\Documents\backupfiles\commit.bat";
 %runCommit%
